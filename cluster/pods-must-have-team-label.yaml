@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sRequiredLabels
 metadata:
-  name: pods-must-have-anthos-label
+  name: pods-must-have-team-label
 spec:
   match:
     kinds:
@@ -9,4 +9,4 @@ spec:
         kinds: ["Pod"]
   parameters:
     labels:
-      - key: "anthos"
+      - key: "team"
