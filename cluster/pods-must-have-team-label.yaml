@@ -9,4 +9,4 @@ spec:
         kinds: ["Pod"]
   parameters:
     labels:
-      - key: "abba"
+      - key: "team"
